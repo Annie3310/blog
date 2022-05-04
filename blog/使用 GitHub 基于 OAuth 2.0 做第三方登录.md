@@ -56,6 +56,8 @@ access_token=gho_16C7e42F292c6912E7710c838347Ae178B4a&scope=repo%2Cgist&token_ty
 ```
 如果想让该请求返回其他格式的字符串, 也可以在上一步的请求头中加入 `Accept: application/json` 或 `Accept: application/xml` 来让该请求返回 `json` 或 `xml` 格式的文本
 
+
+
 #### 3 访问信息
 上一步的请求中拿到了 `access_token`, 这就是授权码.
 访问
